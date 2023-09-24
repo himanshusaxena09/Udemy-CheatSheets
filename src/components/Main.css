@@ -1,0 +1,238 @@
+body{
+    background-color: lightgray;
+}
+.image {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container h1{
+    justify-content: center;
+    display: flex;
+    /* margin-bottom: 50px; */
+    font-size: large;
+    /* padding: 10px;
+    margin:  10px; */
+    /* border-radius: 15px; */
+    background-color: whitesmoke;
+}
+
+.container-list{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.container1{
+    padding: 30px;
+}
+
+/* .container-topic{
+     margin-bottom: 30px; 
+}  */
+
+.container-topic h1{
+    display: flex;
+    /* justify-content: center; */
+    /* margin-bottom: 10px; */
+    background-color: whitesmoke;
+    padding: 10px;
+    /* margin:  10px;
+    border-radius: 20px; */ 
+}
+
+.container-topic p{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+    background-color: whitesmoke;
+    /* padding: 10px;
+    margin:  10px;
+    border-radius: 20px; */
+}
+
+
+.topic{
+    display: flex;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    /* padding: 10px;
+    margin:  10px;
+    border-radius: 50px; */
+}
+
+.btn3{
+  background-color: lightblue;
+  color: black;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.text{
+    padding: 80px;
+    color: black;
+    font-size: medium;
+    padding: 6px;
+    margin:  6px;
+    border-radius: 10px;
+}
+:hover.text{
+    color: rgb(130, 3, 250);
+    background-color: lightgray;
+}
+
+/* CSS for the cart items */
+.cart{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.carts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .carts:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cart-image img {
+    width: 100%;
+    max-height: 260px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .title {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .cart-heading {
+    /* color: #888; */
+    font-size: 14px;
+    /* text-transform: uppercase; */
+  }
+  
+  .cart-title {
+    font-size: 18px;
+    /* font-weight: bold; */
+    /* margin: 5px 0; */
+    color: lightgreen;
+  }
+  
+  .price {
+    font-size: 16px;
+    color: #888; 
+    /* font-weight: bold; */
+
+  }
+  
+  /* Add this CSS for responsiveness */
+@media (max-width: 768px) {
+    .cart{
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .carts {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cart-image {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-right: 10px;
+    }
+  
+    .cart-image img {
+      max-width: 95%;
+      max-height: none;
+    }
+  
+    .title {
+      /* width: 50%; */
+      /* text-align: left; */
+    }
+  }
+  
+  /* Adjust the spacing as needed for larger screens */
+  @media (min-width: 992px) {
+    .carts {
+      margin-bottom: 30px;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .image {
+        display: flex;
+        justify-content: center; 
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .container h1 {
+      padding: 5px;
+      background-color: whitesmoke;
+    }
+  
+    .container-list {
+      flex-direction: column;
+      align-items: center;
+      background-color: whitesmoke;
+    }
+  
+    .topic {
+      flex-direction: column;
+      background-color: whitesmoke;
+      align-items: center;
+    }
+
+    .container-topic p {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-topic h1 {
+        background-color: whitesmoke;
+    }
+
+    .text{
+        padding: 80px;
+        color: black;
+        font-size: medium;
+        padding: 6px;
+        margin:  6px;
+        border-radius: 10px;
+    }
+    :hover.text{
+        color: rgb(130, 3, 250);
+        background-color: lightgray;
+  }
+}
+  
+
