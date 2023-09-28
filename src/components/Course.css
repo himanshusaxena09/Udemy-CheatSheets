@@ -124,6 +124,62 @@
     padding: 20px;
 }
 
+.boxes{
+     box-sizing: border-box;
+     background-color: whitesmoke;
+}
+
+.box1{
+    margin-right: 1000px;
+}
+
+.line{
+    margin-left: 170px;
+    font-size: medium;
+}
+
+.colls{
+    background-color: whitesmoke;
+}
+
+.col{
+    margin-right: 1000px;
+    margin-top: 20px;
+}
+
+.col1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icon{
+    margin-left: 150px;
+    font-size: medium;
+    font-weight: bolder;
+    color: #2d2f31;
+}
+
+@media (max-width: 768px) {
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 700px;
+    }
+
+    .box1{
+        margin-right: 0px;
+    }
+
+    .line{
+     margin-left: 20px;
+    }
+
+    .box {
+        /* width: 90%; */
+    }
+}
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
     .course {

@@ -25,7 +25,7 @@ const Course = () => {
                                 alt="ecommerce"
                                 className="object-cover object-center w-full h-full block"
                                 // src=""
-                            src="https://source.unsplash.com/python/420x260?python,technology"
+                                src="https://source.unsplash.com/python/420x260?python,technology"
                             />
                         </a>
                         <div className="title3">
@@ -42,9 +42,41 @@ const Course = () => {
                         </div>
                     </div>
                 </div>
+            </section>
 
+            <section className='boxes'>
+                <div className="box">
+                    <div className="box1">
+                        <h1>What you'll learn</h1>
+                    </div>
+                    <div className="textes1">
+                        <p className='line'>✔️ You will learn how to leverage the power of Python to solve tasks.</p>
+                        <p className='line'>✔️ You will build games and programs that use Python libraries.</p>
+                        <p className='line'>✔️ You will be able to use Python for your own work problems or personal projects.</p>
+                        <p className='line'>✔️ You will create a portfolio of Python based projects you can share.</p>
+                        <p className='line'>✔️ Learn to use Python professionally, learning both Python 2 and Python 3!</p>
+                        <p className='line'>✔️ Create games with Python, like Tic Tac Toe and Blackjack!</p>
+                        <p className='line'>✔️ Learn advanced Python features, like the collections module and how to work with timestamps!</p>
+                        <p className='line'>✔️ Learn to use Object Oriented Programming with classes!</p>
+                        <p className='line'>✔️ Understand complex topics, like decorators.</p>
+                        <p className='line'>✔️ Understand how to use both the Jupyter Notebook and create .py files</p>
+                        <p className='line'>✔️ Get an understanding of how to create GUIs in the Jupyter Notebook system!</p>
+                        <p className='line'>✔️ Build a complete understanding of Python from the ground up!</p>
+                    </div>
+                </div>
+            </section>
 
-
+            <section className='colls'>
+                <div className="col">
+                    <h1 className="cols">This course includes:</h1>
+                </div>
+                <div className="col1">
+                    <a href="/" className='icon'>✔️ 22 hours on-demand video</a>
+                    <a href="/" className='icon'>✔️ Access on mobile and TV</a>
+                    <a href="/" className='icon'>✔️ 19 coding exercises</a>
+                    <a href="/" className='icon'>✔️ Certificate of completion</a>
+                    <a href="/" className='icon'>✔️ 15 articles</a>
+                </div>
             </section>
         </div>
     )

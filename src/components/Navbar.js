@@ -37,9 +37,9 @@ const Navbar = () => {
                 {/* 3rd social media links */}
                 <div className="social-media">
                     <ul className="social-media-desktop">
-                        <li><a href="https://www.udemy.com/cart/" target="_thapa"><FaCartArrowDown className="card" /></a></li>
-                        <li><a href="https://www.linkedin.com/in/himanshu-saxena9001" target="_thapa"><FaLinkedinIn className="linkedin" /></a></li>
-                        <li><a href="https://github.com/himanshusaxena09" target="_thapa"><FaGithubSquare className="github" /></a></li>
+                        <li><a href="https://www.udemy.com/cart/" target="_blank"><FaCartArrowDown className="card" /></a></li>
+                        <li><a href="https://www.linkedin.com/in/himanshu-saxena9001" target="_blank"><FaLinkedinIn className="linkedin" /></a></li>
+                        <li><a href="https://github.com/himanshusaxena09" target="_blank"><FaGithubSquare className="github" /></a></li>
                     </ul>
 
                     {/* hamburget menu start  */}
